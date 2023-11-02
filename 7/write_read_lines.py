@@ -13,6 +13,6 @@ def read_lines():
 def main():
     write_lines()
     foods_list = read_lines()
-    print(*foods_list)
+    print(*foods_list, sep='')
 
 main()
